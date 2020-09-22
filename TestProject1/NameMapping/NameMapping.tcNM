@@ -6,7 +6,6 @@
 	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Children>
 			<Child Name="Sys" Key="{A8C5D26A-DC2A-4BE0-94F8-36E0A290D861}">
-				<TypeInfo Item0="{DA00D88B-11B7-4BCB-AB26-C5C1CB386680}" />
 				<Properties>
 					<Property Name="Name">
 						<Value Value="Sys" />
@@ -14,7 +13,6 @@
 				</Properties>
 				<Children>
 					<Child Name="browser" Key="{04381DAB-961C-4855-B055-84582AEE4D69}">
-						<TypeInfo Item0="{7C42541A-2B40-44D2-BB40-D4680389A0CC}" />
 						<Properties>
 							<Property Name="ObjectType">
 								<Value Value="Browser" />
@@ -22,7 +20,6 @@
 						</Properties>
 						<Children>
 							<Child Name="pageSeanSmartbearTc1440test" Key="{0E80B778-93D5-4AA3-A19B-A4D8DC54A1E2}">
-								<TypeInfo Item0="{6BAF3F18-4A33-469F-947B-5D270347C668}" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value Value="Page" />
@@ -33,7 +30,6 @@
 								</Properties>
 								<Children>
 									<Child Name="panel" Key="{6F5FFBAF-EA2F-49D2-A877-C42018F72932}">
-										<TypeInfo Item0="{E77208AE-D1D6-4B34-A53E-90027BF8777E}" />
 										<Properties>
 											<Property Name="ObjectType">
 												<Value Value="Panel" />
@@ -44,7 +40,6 @@
 										</Properties>
 										<Children>
 											<Child Name="panel" Key="{0BD40072-99F4-41CC-B161-74D8972A4635}">
-												<TypeInfo Item0="{E77208AE-D1D6-4B34-A53E-90027BF8777E}" />
 												<Properties>
 													<Property Name="ObjectType">
 														<Value Value="Panel" />
@@ -55,7 +50,6 @@
 												</Properties>
 												<Children>
 													<Child Name="panel" Key="{D2C429BD-1095-4985-8AE3-2B00764C04C8}">
-														<TypeInfo Item0="{E77208AE-D1D6-4B34-A53E-90027BF8777E}" />
 														<Properties>
 															<Property Name="ObjectType">
 																<Value Value="Panel" />
@@ -66,7 +60,6 @@
 														</Properties>
 														<Children>
 															<Child Name="panel" Key="{DAA8709E-B302-4BAC-9433-A016CD6D9CFF}">
-																<TypeInfo Item0="{E77208AE-D1D6-4B34-A53E-90027BF8777E}" />
 																<Properties>
 																	<Property Name="ObjectType">
 																		<Value Value="Panel" />
@@ -77,7 +70,6 @@
 																</Properties>
 																<Children>
 																	<Child Name="panel" Key="{3842EBFA-64AC-4CA7-8E02-4F231E3D9C3F}">
-																		<TypeInfo Item0="{E77208AE-D1D6-4B34-A53E-90027BF8777E}" />
 																		<Properties>
 																			<Property Name="ObjectType">
 																				<Value Value="Panel" />
@@ -97,6 +89,91 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="pageShop" Key="{A30F2655-3E5A-4D85-BF3D-54A539AB6415}">
+								<TypeInfo Item0="{013937DA-EE3A-413D-81BC-6C381B416CA4}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://services.smartbear.com/samples/TestComplete14/smartstore" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{7BFB001A-0042-4B96-AA15-0F0AE6869EBA}" ExtendedFind="True">
+										<TypeInfo Item0="{A6E9F61A-2144-4711-B921-443CC9FD828B}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Section" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="content" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="textnodeWelcomeToOurStore" Key="{979E3C85-39B1-4422-879A-C82EAA7685D2}" ExtendedFind="True">
+												<TypeInfo Item0="{6641147D-E521-40A5-8A6D-9254E21D2AD2}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="TextNode" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Welcome to our store" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="textnodeMobilePhone" Key="{982A7AAE-0FAF-4A16-9900-0C836AC0012B}" ExtendedFind="True">
+												<TypeInfo Item0="{6641147D-E521-40A5-8A6D-9254E21D2AD2}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="TextNode" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Mobile phone" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="panelArtlistArtlistGridArtlist6C" Key="{B0D7CF99-DACA-425C-89DD-E91E734A9ED0}" ExtendedFind="True">
+												<TypeInfo Item0="{A6E9F61A-2144-4711-B921-443CC9FD828B}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="4D006F00620069006C0065002000700068006F006E0065000A00530070006F007200740073000A004600750072006E00690074007500720065000A00530075006E0067006C00610073007300650073000A0053006F0063006300650072000A004200610073006B0065007400620061006C006C000A0047006F006C0066000A00460061007300680069006F006E000A00470061006D0069006E0067000A0057006100740063006800650073000A004700690066007400200043006100720064007300" Type="7" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="articleArt" Key="{E7988288-EB62-4E14-BD6C-1F8393C43C1B}" ExtendedFind="True">
+														<TypeInfo Item0="{A6E9F61A-2144-4711-B921-443CC9FD828B}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Article" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="0" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="linkShowProductsInCategoryMobile" Key="{64D60185-2576-4229-8612-945BC3F13A94}" ExtendedFind="True">
+																<TypeInfo Item0="{731077BF-E032-446F-8ACC-43E660938B1C}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Link" />
+																	</Property>
+																	<Property Name="title">
+																		<Value Value="Show products in category Mobile phone" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -107,6 +184,15 @@
 		<Child Name="browser" Owner="{04381DAB-961C-4855-B055-84582AEE4D69}">
 			<Child Name="pageSeanSmartbearTc1440test" Owner="{0E80B778-93D5-4AA3-A19B-A4D8DC54A1E2}">
 				<Child Name="panel" Owner="{3842EBFA-64AC-4CA7-8E02-4F231E3D9C3F}" />
+			</Child>
+			<Child Name="pageShop" Owner="{A30F2655-3E5A-4D85-BF3D-54A539AB6415}">
+				<Child Name="sectionContent" Owner="{7BFB001A-0042-4B96-AA15-0F0AE6869EBA}">
+					<Child Name="textnodeWelcomeToOurStore" Owner="{979E3C85-39B1-4422-879A-C82EAA7685D2}" />
+					<Child Name="textnodeMobilePhone" Owner="{982A7AAE-0FAF-4A16-9900-0C836AC0012B}" />
+					<Child Name="articleArt" Owner="{E7988288-EB62-4E14-BD6C-1F8393C43C1B}">
+						<Child Name="linkShowProductsInCategoryMobile" Owner="{64D60185-2576-4229-8612-945BC3F13A94}" />
+					</Child>
+				</Child>
 			</Child>
 		</Child>
 	</LogicalNodes>
