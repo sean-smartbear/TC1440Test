@@ -74,8 +74,8 @@
 																			<Property Name="ObjectType">
 																				<Value Value="Panel" />
 																			</Property>
-																			<Property Name="contentText">
-																				<Value Value="7300650061006E002D0073006D0061007200740062006500610072000A002F000A005400430031003400340030005400650073007400" Type="7" />
+																			<Property Name="Visible">
+																				<Value Value="True" Type="6" />
 																			</Property>
 																		</Properties>
 																	</Child>
