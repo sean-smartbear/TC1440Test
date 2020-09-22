@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{A8C5D26A-DC2A-4BE0-94F8-36E0A290D861}">
+				<TypeInfo Item0="{DA00D88B-11B7-4BCB-AB26-C5C1CB386680}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{04381DAB-961C-4855-B055-84582AEE4D69}">
+						<TypeInfo Item0="{7C42541A-2B40-44D2-BB40-D4680389A0CC}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageSeanSmartbearTc1440test" Key="{0E80B778-93D5-4AA3-A19B-A4D8DC54A1E2}">
+								<Image FileName="87687347" Left="8" Top="111" Right="1928" Bottom="999" />
+								<TypeInfo Item0="{6BAF3F18-4A33-469F-947B-5D270347C668}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://github.com/sean-smartbear/TC1440Test" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{6F5FFBAF-EA2F-49D2-A877-C42018F72932}">
+										<Image FileName="87687347" Left="8" Top="47" Right="1911" Bottom="844" />
+										<TypeInfo Item0="{E77208AE-D1D6-4B34-A53E-90027BF8777E}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panel" Key="{0BD40072-99F4-41CC-B161-74D8972A4635}">
+												<Image FileName="87687347" Left="8" Top="47" Right="1911" Bottom="844" />
+												<TypeInfo Item0="{E77208AE-D1D6-4B34-A53E-90027BF8777E}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{D2C429BD-1095-4985-8AE3-2B00764C04C8}">
+														<Image FileName="87687347" Left="8" Top="346" Right="1911" Bottom="458" />
+														<TypeInfo Item0="{E77208AE-D1D6-4B34-A53E-90027BF8777E}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{DAA8709E-B302-4BAC-9433-A016CD6D9CFF}">
+																<Image FileName="87687347" Left="8" Top="362" Right="1911" Bottom="394" />
+																<TypeInfo Item0="{E77208AE-D1D6-4B34-A53E-90027BF8777E}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="0" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{3842EBFA-64AC-4CA7-8E02-4F231E3D9C3F}">
+																		<Image FileName="87687347" Left="40" Top="362" Right="1506" Bottom="394" />
+																		<TypeInfo Item0="{E77208AE-D1D6-4B34-A53E-90027BF8777E}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="7300650061006E002D0073006D0061007200740062006500610072000A002F000A005400430031003400340030005400650073007400" Type="7" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{04381DAB-961C-4855-B055-84582AEE4D69}">
+			<Child Name="pageSeanSmartbearTc1440test" Owner="{0E80B778-93D5-4AA3-A19B-A4D8DC54A1E2}">
+				<Child Name="panel" Owner="{3842EBFA-64AC-4CA7-8E02-4F231E3D9C3F}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
