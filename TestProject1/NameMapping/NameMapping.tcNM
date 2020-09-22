@@ -35,57 +35,9 @@
 												<Value Value="Panel" />
 											</Property>
 											<Property Name="ObjectIdentifier">
-												<Value Value="1" Type="0" />
+												<Value Value="2" Type="0" />
 											</Property>
 										</Properties>
-										<Children>
-											<Child Name="panel" Key="{0BD40072-99F4-41CC-B161-74D8972A4635}">
-												<Properties>
-													<Property Name="ObjectType">
-														<Value Value="Panel" />
-													</Property>
-													<Property Name="ObjectIdentifier">
-														<Value Value="0" Type="0" />
-													</Property>
-												</Properties>
-												<Children>
-													<Child Name="panel" Key="{D2C429BD-1095-4985-8AE3-2B00764C04C8}">
-														<Properties>
-															<Property Name="ObjectType">
-																<Value Value="Panel" />
-															</Property>
-															<Property Name="ObjectIdentifier">
-																<Value Value="1" Type="0" />
-															</Property>
-														</Properties>
-														<Children>
-															<Child Name="panel" Key="{DAA8709E-B302-4BAC-9433-A016CD6D9CFF}">
-																<Properties>
-																	<Property Name="ObjectType">
-																		<Value Value="Panel" />
-																	</Property>
-																	<Property Name="ObjectIdentifier">
-																		<Value Value="0" Type="0" />
-																	</Property>
-																</Properties>
-																<Children>
-																	<Child Name="panel" Key="{3842EBFA-64AC-4CA7-8E02-4F231E3D9C3F}">
-																		<Properties>
-																			<Property Name="ObjectType">
-																				<Value Value="Panel" />
-																			</Property>
-																			<Property Name="Visible">
-																				<Value Value="True" Type="6" />
-																			</Property>
-																		</Properties>
-																	</Child>
-																</Children>
-															</Child>
-														</Children>
-													</Child>
-												</Children>
-											</Child>
-										</Children>
 									</Child>
 								</Children>
 							</Child>
@@ -182,9 +134,7 @@
 	</Nodes>
 	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Child Name="browser" Owner="{04381DAB-961C-4855-B055-84582AEE4D69}">
-			<Child Name="pageSeanSmartbearTc1440test" Owner="{0E80B778-93D5-4AA3-A19B-A4D8DC54A1E2}">
-				<Child Name="panel" Owner="{3842EBFA-64AC-4CA7-8E02-4F231E3D9C3F}" />
-			</Child>
+			<Child Name="pageSeanSmartbearTc1440test" Owner="{0E80B778-93D5-4AA3-A19B-A4D8DC54A1E2}" />
 			<Child Name="pageShop" Owner="{A30F2655-3E5A-4D85-BF3D-54A539AB6415}">
 				<Child Name="sectionContent" Owner="{7BFB001A-0042-4B96-AA15-0F0AE6869EBA}">
 					<Child Name="textnodeWelcomeToOurStore" Owner="{979E3C85-39B1-4422-879A-C82EAA7685D2}" />
